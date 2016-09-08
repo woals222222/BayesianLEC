@@ -7,8 +7,8 @@ output: html_document
 ##CODE
 
 ```{r}
-y<-airquality$Wind
-x<-airquality$Ozone
+x<-airquality$Wind
+y<-airquality$Ozone
 res<-lm(y~x)
 ```
 
